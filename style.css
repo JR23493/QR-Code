@@ -1,0 +1,37 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.grid-box {
+    display: grid;
+    margin: auto;
+    height: 36rem;
+    width: 25rem;
+    margin-top: 100px;
+    background-color: hsl(0, 0%, 100%);
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 24rem 17% 17% 6%;
+    border-radius: 8px;
+}
+
+.img {
+    margin-top: 1.25rem;
+    grid-area: 1 / 2 / 1 / 2;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+h1 {
+    grid-area: 2 / 2 / 2 / 2;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+h2 {
+    grid-area: 3 / 2 / 3 / 2;
+    text-align: center;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}   
